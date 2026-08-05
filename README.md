@@ -42,8 +42,12 @@ s.normalized  # "600519.SH"
 bar = Bar(
     symbol="600519.SH",
     trade_date=date(2026, 8, 6),
-    open=1450.0, high=1488.0, low=1440.0, close=1472.0,
-    volume=3_200_000, amount=4_700_000_000,
+    open=1450.0,
+    high=1488.0,
+    low=1440.0,
+    close=1472.0,
+    volume=3_200_000,
+    amount=4_700_000_000,
 )
 ```
 
