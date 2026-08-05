@@ -36,7 +36,7 @@ def test_enums_are_str_subclass() -> None:
     assert Currency.CNY == "CNY"
     assert Frequency.DAILY == "1d"
     assert AdjustType.NONE == "none"
-    assert f"{Exchange.SSE}" == "SSE"
+    assert format(Exchange.SSE, "") == "SSE"  # format() coerces str-subclass enums to their value on all Pythons
 
 
 def test_symbol_construction() -> None:
