@@ -17,6 +17,12 @@ Tianji DataModel 是 [Tianji](https://github.com/tianji-dev/tianji) 开源市场
 - 校验函数：`validate_symbol` / `validate_bar` / `validate_point_date`
 - 离线优先，零外部数据依赖
 
+## 文档
+
+- [API 参考](docs/api.md) — 数据模型、枚举、校验函数与异常
+- [数据格式](docs/data-format.md) — 数据版本与加载优先级
+- [设计文档](docs/design.md) — 生态定位与设计约束
+
 ## 安装
 
 ```bash
