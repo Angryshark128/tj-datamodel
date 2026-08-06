@@ -27,7 +27,7 @@ pip install tj-datamodel
 
 ```python
 from datetime import date
-from tj_datamodel import Exchange, AssetType, Symbol, Bar
+from tj_datamodel import Exchange, Market, AssetType, Symbol, Bar
 
 s = Symbol(
     code="600519",
